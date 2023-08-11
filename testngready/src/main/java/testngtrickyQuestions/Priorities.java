@@ -23,4 +23,12 @@ public class Priorities {
 	public void d() {
 		System.out.println("This is d with prioiry 0");
 	}
+	@Test(priority = 2)
+	public void e() {
+		System.out.println("This is d with prioiry  2");
+	}
+	@Test(priority =32 )
+	public void f() {
+		System.out.println("This is d with prioiry 3");
+	}
 }
