@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Suite">
+<parameter name="name" value="Kranthi"></parameter>
+<parameter name="pass" value="Kranthi"></parameter>
+  <test thread-count="5" parallel="methods" name="Test">
+    <classes>
+      <class name="testCases.BAddtoCart"/>
+      <class name="testCases.CCheckOut"/>
+      <class name="testCases.Alogin"/>
+      <class name="testCases.DLogout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
